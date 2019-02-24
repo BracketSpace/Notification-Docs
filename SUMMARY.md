@@ -8,7 +8,7 @@
 
 ## Developer
 
-* [Untitled](developer/untitled.md)
+* [Plugin loading chain](developer/untitled.md)
 
 ## Extensions
 
