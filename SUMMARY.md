@@ -4,7 +4,7 @@
 
 ## User guide
 
-* [Untitled](user-guide/untitled.md)
+* [How Notification plugin works](user-guide/untitled.md)
 
 ## Developer
 
