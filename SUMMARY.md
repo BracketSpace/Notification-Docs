@@ -10,6 +10,7 @@
 
 * [Plugin loading chain](developer/untitled.md)
 * [List of all default Triggers](developer/list-of-all-default-triggers.md)
+* [Enable support for non-public Custom Post Type](developer/enable-support-for-non-public-custom-post-type.md)
 
 ## Extensions
 
