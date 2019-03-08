@@ -17,5 +17,5 @@
 
 ## Extensions
 
-* [Untitled](extensions/untitled.md)
+* [Extension installation](extensions/untitled.md)
 
