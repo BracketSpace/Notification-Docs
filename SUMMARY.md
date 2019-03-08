@@ -4,11 +4,11 @@
 
 ## User guide
 
-* [How Notification plugin works](user-guide/untitled.md)
+* [How Notification plugin works](user-guide/how-notification-plugin-works.md)
 
 ## Developer
 
-* [Plugin loading chain](developer/untitled.md)
+* [Plugin loading chain](developer/plugin-loading-chain.md)
 * [Extension possibilities](developer/extension-possibilities.md)
 * [List of all default Triggers](developer/list-of-all-default-triggers.md)
 * [Enable support for non-public Custom Post Type](developer/enable-support-for-non-public-custom-post-type.md)
@@ -17,5 +17,5 @@
 
 ## Extensions
 
-* [Extension installation](extensions/untitled.md)
+* [Extension installation](extensions/installation.md)
 
