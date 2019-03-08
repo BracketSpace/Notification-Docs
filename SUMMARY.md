@@ -9,6 +9,7 @@
 ## Developer
 
 * [Plugin loading chain](developer/untitled.md)
+* [List of all default Triggers](developer/list-of-all-default-triggers.md)
 
 ## Extensions
 
