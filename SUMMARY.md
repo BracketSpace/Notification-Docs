@@ -16,6 +16,7 @@
 * [Enable support for non-public Custom Post Type](developer/non-public-custom-post-type.md)
 * [Suppressing the Notification](developer/suppressing-the-notification.md)
 * [White label mode](developer/white-label-mode.md)
+* [Adding Merge Tags to existing Triggers](developer/adding-merge-tags-to-existing-triggers.md)
 
 ## Extensions
 
