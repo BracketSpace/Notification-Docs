@@ -4,6 +4,13 @@ The [Notification plugin](https://wordpress.org/plugins/notification/) was creat
 
 The plugin is built on top of WordPress' actions system which means it can listen to any action defined in WordPress. And it has a thousand of them. Also, every properly created plugin should use them as well.
 
+{% hint style="info" %}
+Examples:
+
+* Send an email to WordPress administrator when user logs in
+* Send a webhook to your accounting software when someone purchases a product
+{% endhint %}
+
 ## Plugin components
 
 The Notification plugin is created with a few components which works together. See below how they work and how they are bound together.
