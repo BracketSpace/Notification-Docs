@@ -14,6 +14,10 @@
 
 {% page-ref page="developer/extension-possibilities.md" %}
 
+{% page-ref page="developer/including-notification-in-the-plugin-or-theme.md" %}
+
+{% page-ref page="developer/white-label-mode.md" %}
+
 ## Extensions
 
 {% page-ref page="extensions/installation.md" %}

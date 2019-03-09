@@ -2,7 +2,7 @@
 description: 'How to download, install and activate the Notification extension'
 ---
 
-# Extension installation
+# Installation
 
 ## Premium extensions
 

@@ -21,5 +21,5 @@
 
 ## Extensions
 
-* [Extension installation](extensions/installation.md)
+* [Installation](extensions/installation.md)
 
