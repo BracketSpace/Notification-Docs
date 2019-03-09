@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Notification – Custom Notifications and Alerts for WordPress](README.md)
 
 ## User guide
 
