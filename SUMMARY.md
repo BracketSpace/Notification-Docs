@@ -18,6 +18,7 @@
 * [White label mode](developer/white-label-mode.md)
 * [Adding Merge Tags to existing Triggers](developer/adding-merge-tags-to-existing-triggers.md)
 * [Including Notification in the plugin or theme](developer/including-notification-in-the-plugin-or-theme.md)
+* [Creating an extension](developer/creating-an-extension.md)
 
 ## Extensions
 
