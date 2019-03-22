@@ -4,9 +4,9 @@ The Notification plugin is designed to be easy to setup even for beginner users.
 
 {% page-ref page="how-to-create-notifications.md" %}
 
-It has a bunch of [predefined Triggers](../developer/default-triggers.md) you can use and which will work out of the box.
+It has a bunch of [predefined Triggers](../developer/triggers/default-triggers.md) you can use and which will work out of the box.
 
-But the plugin is not limited to "clicky-click" in WordPress dashboard. It's [very extensible](../developer/extension-possibilities.md) and developers can use it as a framework in their own plugins or themes.
+But the plugin is not limited to "clicky-click" in WordPress dashboard. It's [very extensible](../developer/general/extension-possibilities.md) and developers can use it as a framework in their own plugins or themes.
 
 This opens a lot of possibilities. Developers can do their thing and the users can still use the easy and unified interface to edit the Notifications.
 

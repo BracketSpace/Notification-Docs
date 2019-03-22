@@ -12,11 +12,11 @@
 
 ## Developer docs
 
-{% page-ref page="developer/extension-possibilities.md" %}
+{% page-ref page="developer/general/extension-possibilities.md" %}
 
-{% page-ref page="developer/including-notification-in-the-plugin-or-theme.md" %}
+{% page-ref page="developer/general/bundling.md" %}
 
-{% page-ref page="developer/white-label-mode.md" %}
+{% page-ref page="developer/general/white-label-mode.md" %}
 
 ## Extensions
 

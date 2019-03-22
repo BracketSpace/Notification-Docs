@@ -12,7 +12,7 @@ After that, you will be able to use all the set of Post triggers, like _Post Typ
 
 To enable support for non-public Custom Post Type you are going to need a short code snippet. Please refer to the article below.
 
-{% page-ref page="../developer/non-public-custom-post-type.md" %}
+{% page-ref page="../developer/triggers/non-public-custom-post-type.md" %}
 
 
 

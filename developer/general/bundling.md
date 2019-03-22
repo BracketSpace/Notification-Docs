@@ -1,4 +1,4 @@
-# Including Notification in the plugin or theme
+# Bundling Notification plugin
 
 Including Notification in your plugin or theme is really very simple. It can work as a library \(similar to Advanced Custom Fields or other plugins\).
 

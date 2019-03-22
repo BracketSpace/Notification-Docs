@@ -11,15 +11,18 @@
 
 ## Developer
 
-* [Plugin loading chain](developer/plugin-loading-chain.md)
-* [Extension possibilities](developer/extension-possibilities.md)
-* [List of all default Triggers](developer/default-triggers.md)
-* [Enable support for non-public Custom Post Type](developer/non-public-custom-post-type.md)
-* [Suppressing the Notification](developer/suppressing-the-notification.md)
-* [White label mode](developer/white-label-mode.md)
-* [Adding Merge Tags to existing Triggers](developer/adding-merge-tags-to-existing-triggers.md)
-* [Including Notification in the plugin or theme](developer/including-notification-in-the-plugin-or-theme.md)
-* [Creating an extension](developer/creating-an-extension.md)
+* [General](developer/general/README.md)
+  * [Plugin loading chain](developer/general/plugin-loading-chain.md)
+  * [Extension possibilities](developer/general/extension-possibilities.md)
+  * [Creating an extension](developer/general/creating-an-extension.md)
+  * [Bundling Notification plugin](developer/general/bundling.md)
+  * [White label mode](developer/general/white-label-mode.md)
+* [Triggers](developer/triggers/README.md)
+  * [List of all default Triggers](developer/triggers/default-triggers.md)
+  * [Enable support for non-public Custom Post Type](developer/triggers/non-public-custom-post-type.md)
+  * [Adding Merge Tags to existing Triggers](developer/triggers/adding-merge-tags-to-existing-triggers.md)
+* [Notifications](developer/notifications/README.md)
+  * [Suppressing the Notification](developer/notifications/suppressing-the-notification.md)
 
 ## Extensions
 
