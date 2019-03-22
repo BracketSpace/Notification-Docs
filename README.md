@@ -1,3 +1,7 @@
+---
+description: The official Notification plugin documentation
+---
+
 # Notification – Custom Notifications and Alerts for WordPress
 
 ![](.gitbook/assets/notification-hires.png)
