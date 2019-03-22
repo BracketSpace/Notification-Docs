@@ -19,6 +19,7 @@
   * [White label mode](developer/general/white-label-mode.md)
 * [Triggers](developer/triggers/README.md)
   * [List of all default Triggers](developer/triggers/default-triggers.md)
+  * [Custom Trigger](developer/triggers/custom-trigger.md)
   * [Enable support for non-public Custom Post Type](developer/triggers/non-public-custom-post-type.md)
   * [Adding Merge Tags to existing Triggers](developer/triggers/adding-merge-tags-to-existing-triggers.md)
 * [Notifications](developer/notifications/README.md)
