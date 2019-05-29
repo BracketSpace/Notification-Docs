@@ -11,13 +11,13 @@ To disable the whole Notification \(all Carriers\) it's better to use the `notif
 If you want to suppress a specific Carrier you can do it like this:
 
 ```php
-add_action( 'notification/carrier/pre-send', function( $carrier, $trigger ) {
+add_action( 'notification/carrier/pre-send', function( $carrier, $trigger, $notification ) {
 
 	if ( $carrier->get_slug() == 'email' ) {
 		$carrier->suppress();
 	}
 
-}, 10, 2 );
+}, 10, 3 );
 ```
 
 {% hint style="info" %}
