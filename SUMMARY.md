@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Notification – Custom Notifications and Alerts for WordPress](README.md)
+* [Known issues](known-issues.md)
 
 ## User guide
 
