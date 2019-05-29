@@ -12,3 +12,7 @@ A quick fix to prevent that is to use below filter. Please note that if you are 
 add_filter( 'notification/integration/custom_fields/should_postpone_save_post', '__return_false' );
 ```
 
+## Gutenberg and custom field
+
+When using Gutenberg it's not possible to get every post information AND custom fields at the same time. Everything is saved separately in separate AJAX requests and there's no way we can access all the updated data at once.
+
