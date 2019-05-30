@@ -21,6 +21,6 @@ add_filter( 'notification/should_send', function( $should_send, $notification, $
 ```
 
 {% hint style="danger" %}
-At this point, the Trigger doesn't executed the action\(\) method so you cannot use the Merge Tags.
+At this point, the Trigger doesn't executed the action\(\) method so you cannot use the Merge Tags. If you rely on Merge Tags, [suppress the Carrier](../carriers/suppressing.md) instead.
 {% endhint %}
 
