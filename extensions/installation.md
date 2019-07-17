@@ -20,7 +20,7 @@ You can download the purchased extension from many sources:
 
 To install the extension plugin please navigate in your WordPress Dashboard to `Plugins` and `Add New`. Then click the Upload Plugin button.
 
-![Uploading a plugin from .zip package](../.gitbook/assets/image.png)
+![Uploading a plugin from .zip package](../.gitbook/assets/image%20%282%29.png)
 
 Select the package you downloaded and click `Install Now` button.
 
@@ -30,7 +30,7 @@ Why it's important to activate the extension? Because this way you'll get the pl
 
 To activate the plugin simply go to `Notifications` and `Extensions` and in the extension box provide your license key.
 
-![Notification Extension activation box](../.gitbook/assets/image%20%281%29.png)
+![Notification Extension activation box](../.gitbook/assets/image.png)
 
 Then just click the `Save and activate license` button.
 
