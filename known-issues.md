@@ -1,5 +1,9 @@
 # Known issues
 
+## OPCache needs to be disabled
+
+Please add `opcache.save_comments=1` to your `php.ini`
+
 ## Multiple exactly the same Notifications
 
 Problem occurs when Triggers gets executed multiple times during the same request, ie. when you are adding multiple posts via a loop.
