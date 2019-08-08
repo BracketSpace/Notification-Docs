@@ -30,6 +30,10 @@
   * [Postponing the Trigger action](developer/triggers/postponing.md)
 * [Carriers](developer/carriers/README.md)
   * [Suppressing the Carrier](developer/carriers/suppressing.md)
+* [Snippets](developer/snippets/README.md)
+  * [Triggers](developer/snippets/triggers/README.md)
+    * [User](developer/snippets/triggers/user.md)
+  * [Integrations](developer/snippets/integrations.md)
 
 ## Extensions
 
