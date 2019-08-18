@@ -40,4 +40,5 @@
 * [Installation](extensions/installation.md)
 * [Planned extensions](extensions/planned.md)
 * [3rd Party Extensions](extensions/3rd-party-extensions.md)
+* [Custom Fields](extensions/custom-fields.md)
 
