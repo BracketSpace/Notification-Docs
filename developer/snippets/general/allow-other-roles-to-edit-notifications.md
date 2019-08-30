@@ -19,3 +19,9 @@ add_filter( 'notification/post_type/capabilities', function( $capabilities ) {
 } );
 ```
 
+{% hint style="danger" %}
+Please note that capability the user have to have is `unfiltered_html`. Otherwise the notification configuration won't be saved properly.
+{% endhint %}
+
+
+
