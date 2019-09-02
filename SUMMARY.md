@@ -35,7 +35,9 @@
     * [Allow other roles to edit Notifications](developer/snippets/general/allow-other-roles-to-edit-notifications.md)
   * [Triggers](developer/snippets/triggers/README.md)
     * [User](developer/snippets/triggers/user.md)
-  * [Integrations](developer/snippets/integrations.md)
+  * [Integations](developer/snippets/integations/README.md)
+    * [WP All Import](developer/snippets/integations/wp-all-import.md)
+    * [Gutenberg](developer/snippets/integations/gutenberg.md)
 
 ## Extensions
 

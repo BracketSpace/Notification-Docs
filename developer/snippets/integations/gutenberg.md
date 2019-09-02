@@ -1,4 +1,4 @@
-# Integrations
+# Gutenberg
 
 ## Disable Gutenberg integration for specific Post Types
 
