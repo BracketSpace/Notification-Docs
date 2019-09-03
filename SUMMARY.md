@@ -32,6 +32,7 @@
   * [Suppressing the Carrier](developer/carriers/suppressing.md)
 * [Snippets](developer/snippets/README.md)
   * [General](developer/snippets/general/README.md)
+    * [Automatic Trigger testing](developer/snippets/general/automatic-trigger-testing.md)
     * [Allow other roles to edit Notifications](developer/snippets/general/allow-other-roles-to-edit-notifications.md)
   * [Triggers](developer/snippets/triggers/README.md)
     * [User](developer/snippets/triggers/user.md)
