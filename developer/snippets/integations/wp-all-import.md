@@ -9,25 +9,31 @@ This guide assumes that you have the option "**Increase speed by disabling do\_a
 {% endhint %}
 
 {% hint style="warning" %}
-You must use `Post added` trigger for this integration \(or other `Custom Post Type added` trigger\)
+You must use `Post added` trigger for this integration \(or other `Custom Post Type added` trigger\) or `Post updated` trigger.
 {% endhint %}
 
 ```php
 // Add our proxy action to the trigger.
 add_action( 'notification/trigger/registered', function( $trigger ) {
 
-	if ( ! preg_match( '/wordpress\/(?!.*(plugin|theme)).*\/added/', $trigger->get_slug() ) ) {
-		return;
+	if ( preg_match( '/wordpress\/(?!.*(plugin|theme)).*\/added/', $trigger->get_slug() ) ) {
+		$trigger->add_action( 'notification_pmxi_added_post', 10, 3 );
 	}
 
-	$trigger->add_action( 'notification_pmxi_saved_post', 10, 3 );
+	if ( preg_match( '/wordpress\/(?!.*(plugin|theme)).*\/updated/', $trigger->get_slug() ) ) {
+		$trigger->add_action( 'notification_pmxi_updated_post', 10, 3 );
+	}
 
 } );
 
 // Proxy action.
-add_action( 'pmxi_saved_post', function( $post_id ) {
-	do_action( 'notification_pmxi_saved_post', $post_id, get_post( $post_id ), false );
-}, 10, 1 );
+add_action( 'pmxi_saved_post', function( $post_id, $node, $is_update ) {
+	if ( ! $is_update ) {
+		do_action( 'notification_pmxi_added_post', $post_id, get_post( $post_id ), false );
+	} else {
+		do_action( 'notification_pmxi_updated_post', $post_id, get_post( $post_id ), get_post( $post_id ) );
+	}
+}, 10, 3 );
 
 // Disable postponing.
 add_filter( 'notification/integration/gutenberg', function( $initial ) {
