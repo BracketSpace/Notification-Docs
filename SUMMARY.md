@@ -23,6 +23,7 @@
 * [Notifications](developer/notifications/README.md)
   * [Suppressing the Notification](developer/notifications/suppressing.md)
   * [JSON synchronization](developer/notifications/json-synchronization.md)
+* [Programmatic Notifications](developer/programmatic-notifications.md)
 * [Triggers](developer/triggers/README.md)
   * [List of all default Triggers](developer/triggers/default-triggers.md)
   * [Custom Trigger](developer/triggers/custom-trigger.md)
