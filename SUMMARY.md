@@ -22,6 +22,7 @@
   * [Disabling Freemius](developer/general/disabling-freemius.md)
 * [Notifications](developer/notifications/README.md)
   * [Suppressing the Notification](developer/notifications/suppressing.md)
+  * [JSON synchronization](developer/notifications/json-synchronization.md)
 * [Triggers](developer/triggers/README.md)
   * [List of all default Triggers](developer/triggers/default-triggers.md)
   * [Custom Trigger](developer/triggers/custom-trigger.md)
