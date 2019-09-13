@@ -10,6 +10,7 @@
 * [How to create Notifications](user-guide/how-to-create-notifications.md)
 * [Custom Post Type support](user-guide/custom-post-type-support.md)
 * [How to escape { character](user-guide/how-to-escape-curly-bracket.md)
+* [Background processing](user-guide/background-processing.md)
 
 ## Developer
 
