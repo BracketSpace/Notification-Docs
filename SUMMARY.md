@@ -38,6 +38,7 @@
     * [Automatic Trigger testing](developer/snippets/general/automatic-trigger-testing.md)
     * [Allow other roles to edit Notifications](developer/snippets/general/allow-other-roles-to-edit-notifications.md)
   * [Triggers](developer/snippets/triggers/README.md)
+    * [Post](developer/snippets/triggers/post.md)
     * [User](developer/snippets/triggers/user.md)
   * [Integations](developer/snippets/integations/README.md)
     * [WP All Import](developer/snippets/integations/wp-all-import.md)
