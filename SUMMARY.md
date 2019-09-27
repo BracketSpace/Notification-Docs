@@ -42,6 +42,7 @@
     * [User](developer/snippets/triggers/user.md)
   * [Integations](developer/snippets/integations/README.md)
     * [WP All Import](developer/snippets/integations/wp-all-import.md)
+    * [MemberPress](developer/snippets/integations/memberpress.md)
     * [Gutenberg](developer/snippets/integations/gutenberg.md)
 
 ## Extensions
