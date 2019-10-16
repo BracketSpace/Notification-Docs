@@ -16,6 +16,7 @@ This covers all the comment types. Use `comment`, `pingback`, `trackback`, `anot
 | Comment spammed | `wordpress/comment_{comment_type_slug}_spammed` |
 | Comment trashed | `wordpress/comment_{comment_type_slug}_trashed` |
 | Comment unapproved | `wordpress/comment_{comment_type_slug}_unapproved` |
+| Comment published | `wordpress/comment/{comment_type_slug}/published` |
 {% endtab %}
 
 {% tab title="Media" %}
