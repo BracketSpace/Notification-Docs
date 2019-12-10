@@ -189,3 +189,31 @@ And do you notice the `|term:name` array key notation here? That's right, the `|
 Pipelines are supported by both ACF and regular meta Merge Tags. You can use multidimensional array access as well `:with:this:notation` 
 {% endhint %}
 
+### Accessing ACF Repeater
+
+Since version `1.2.4` you are able to access single level repeater fields, like this:
+
+![Repeater field configuration](../.gitbook/assets/image%20%283%29.png)
+
+Which gives results like:
+
+```text
+Array
+(
+    [0] => Array
+    (
+        [name] => John Doe
+    )
+    [1] => Array
+    (
+        [name] => Jane Doe
+    )
+)
+```
+
+You simply use the `array` pipe:
+
+```text
+{acf {post_ID} repeater_field_key|array:name}
+```
+
