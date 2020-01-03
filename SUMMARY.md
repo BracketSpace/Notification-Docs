@@ -20,7 +20,6 @@
   * [Creating an extension](developer/general/creating-an-extension.md)
   * [Bundling Notification plugin](developer/general/bundling.md)
   * [White label mode](developer/general/white-label-mode.md)
-  * [Disabling Freemius](developer/general/disabling-freemius.md)
 * [Notifications](developer/notifications/README.md)
   * [Suppressing the Notification](developer/notifications/suppressing.md)
   * [JSON synchronization](developer/notifications/json-synchronization.md)
