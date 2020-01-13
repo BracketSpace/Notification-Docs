@@ -31,6 +31,7 @@
   * [Enable support for non-public Custom Post Type](developer/triggers/non-public-custom-post-type.md)
   * [Adding Merge Tags to existing Triggers](developer/triggers/adding-merge-tags-to-existing-triggers.md)
   * [Postponing the Trigger action](developer/triggers/postponing.md)
+  * [Delaying Trigger execution with Cron](developer/triggers/delaying-trigger-execution-with-cron.md)
 * [Carriers](developer/carriers/README.md)
   * [Suppressing the Carrier](developer/carriers/suppressing.md)
 * [Snippets](developer/snippets/README.md)
