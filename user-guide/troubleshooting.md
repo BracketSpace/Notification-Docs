@@ -4,6 +4,10 @@ description: Debug quickly why the plugin isn't working
 
 # Troubleshooting
 
+{% hint style="danger" %}
+Make sure the Notification plugin and all the extensions are up-to-date!
+{% endhint %}
+
 ## Nothing is sent
 
 To debug the missing message \(Carrier execution\) please enable the Notification log in **Notification &gt; Settings &gt; Debugging**. All the executions will be caught there.
