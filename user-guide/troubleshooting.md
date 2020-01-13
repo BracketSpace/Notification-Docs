@@ -10,7 +10,7 @@ To debug the missing message \(Carrier execution\) please enable the Notificatio
 
 If the notification gets caught, you can inspect the details \(ie. if the recipient is set correctly\) and if they seem to be ok, check if your WordPress is sending the emails \(SMTP is set correctly?\) or it can connect to the API \(depends on the selected Carrier\).
 
-If the notification is not there, you probably found a bug. Please [report it on Github](https://github.com/BracketSpace/Notification/issues/new).
+If the notification is not there, you probably found a bug. Please [report it on Github](https://github.com/BracketSpace/Notification/issues/new?assignees=&labels=bug&template=bug-report.md&title=).
 
 ## Cannot see the Custom Post Type on the Triggers list while creating a Notification
 
