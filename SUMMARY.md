@@ -12,6 +12,7 @@
 * [How to escape { character](user-guide/how-to-escape-curly-bracket.md)
 * [Background processing](user-guide/background-processing.md)
 * [Troubleshooting](user-guide/troubleshooting.md)
+* [How to setup different FROM address for different Notifications](user-guide/how-to-setup-different-from-address-for-different-notifications.md)
 
 ## Developer
 
