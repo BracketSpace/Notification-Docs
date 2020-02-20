@@ -22,7 +22,11 @@ See:
 
 {% page-ref page="custom-post-type-support.md" %}
 
+## WordPress Updates trigger is not sending any notification
 
+The mechanism of this trigger relies on the WordPress Cron system \(periodic tasks executions\). If you are not getting the notifications please go to **Tools &gt; Site Health** screen and confirm you cannot see any issues with WP Cron.
 
+You can also install our [Advanced Cron Manager](https://wordpress.org/plugins/advanced-cron-manager/) plugin to confirm if the cron job is running and execute it manually to test without waiting for another automatic execution. The event name is: `notification_check_wordpress_updates`.
 
+If after manual execution the notification is not sent, please apply the steps listed in [Nothing is sent](https://docs.bracketspace.com/notification/user-guide/troubleshooting#nothing-is-sent) chapter above.
 
