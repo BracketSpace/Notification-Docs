@@ -10,3 +10,7 @@ require_once( 'path/to/plugin/notification/load.php' );
 
 Notification will figure out its paths and URLs.
 
+{% hint style="info" %}
+When bundled, the Notification initializes on `init 4` to make sure it gets the priority. Notification loaded as a normal plugin is ignored.
+{% endhint %}
+
