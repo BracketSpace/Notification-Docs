@@ -122,6 +122,6 @@ notification_register_trigger( new CustomTrigger() );
 ```
 
 {% hint style="info" %}
-If you are experiencing issues like **Fatal error: Class ‘BracketSpace\Notification\Abstracts\Trigger’ not found** please wrap your class definition and function call in the `notification/boot/initial` action.
+If you are experiencing issues like **Fatal error: Class ‘BracketSpace\Notification\Abstracts\Trigger’ not found** please wrap your class definition and function call in the `notification/boot` action.
 {% endhint %}
 
