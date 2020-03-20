@@ -14,6 +14,12 @@ To get the Runtime component:
 $cache = \Notification::component( 'core_cache' );
 ```
 
+To get plugin version:
+
+```php
+$version = \Notification::version();
+```
+
 {% hint style="info" %}
 Please note the `Notification` class lives in the global namespace.
 {% endhint %}

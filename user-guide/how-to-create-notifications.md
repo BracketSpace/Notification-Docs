@@ -20,7 +20,7 @@ Then you just have to activate it and you are all set!
 
 In your WordPress dashboard you should see the `Notifications` menu. It will contain the `Add New Notification` link which will take you directly to your fresh Notification.
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 You can give your Notification a Title you want \(for internal use only\), select the Trigger you want to use and configure your Carriers.
 
