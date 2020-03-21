@@ -115,13 +115,11 @@ class CustomTrigger extends \BracketSpace\Notification\Abstracts\Trigger {
 
 ## Registering the Trigger
 
-Having this class is only a first step. To get the trigger registered you must create an instance of this class and pass it to the Notification plugin:
+Having this class is only a first step. To get the trigger registered you must create an instance of this class and pass it to the Notification plugin. The best action to do that is `notification/elements`
 
 ```php
-notification_register_trigger( new CustomTrigger() );
+add_action( 'notification/elements', function() {
+    notification_register_trigger( new CustomTrigger() );
+} );
 ```
-
-{% hint style="info" %}
-If you are experiencing issues like **Fatal error: Class ‘BracketSpace\Notification\Abstracts\Trigger’ not found** please wrap your class definition and function call in the `notification/boot` action.
-{% endhint %}
 
