@@ -58,4 +58,5 @@
 * [3rd Party Extensions](extensions/3rd-party-extensions.md)
 * [Custom Fields](extensions/custom-fields.md)
 * [Scheduled Triggers](extensions/scheduled-triggers.md)
+* [Slack](extensions/slack.md)
 
