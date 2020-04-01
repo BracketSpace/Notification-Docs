@@ -20,7 +20,7 @@ If the notification is not there, you probably found a bug. Please [report it on
 
 See:
 
-{% page-ref page="custom-post-type-support.md" %}
+{% page-ref page="advanced/custom-post-type-support.md" %}
 
 
 

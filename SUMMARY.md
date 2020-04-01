@@ -8,11 +8,12 @@
 * [How Notification plugin works](user-guide/how-notification-plugin-works.md)
 * [Who can use this plugin](user-guide/who-can-use-this-plugin.md)
 * [How to create Notifications](user-guide/how-to-create-notifications.md)
-* [Custom Post Type support](user-guide/custom-post-type-support.md)
-* [How to escape { character](user-guide/how-to-escape-curly-bracket.md)
-* [Background processing](user-guide/background-processing.md)
 * [Troubleshooting](user-guide/troubleshooting.md)
-* [How to setup different FROM address for different Notifications](user-guide/how-to-setup-different-from-address-for-different-notifications.md)
+* [Advanced](user-guide/advanced/README.md)
+  * [How to escape { character](user-guide/advanced/how-to-escape-curly-bracket.md)
+  * [Background processing](user-guide/advanced/background-processing.md)
+  * [How to setup different FROM address for different Notifications](user-guide/advanced/how-to-setup-different-from-address-for-different-notifications.md)
+  * [Custom Post Type support](user-guide/advanced/custom-post-type-support.md)
 
 ## Developer
 
