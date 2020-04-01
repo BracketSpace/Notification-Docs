@@ -33,7 +33,7 @@ You can target all the Post Type Triggers like this:
 ```php
 add_action( 'notification/trigger/registered', function( $trigger ) {
 
-	if ( ! preg_match( '/wordpress\/(.*)\/(updated|trashed|published|drafted|added|pending)/', $trigger->get_slug() )
+	if ( ! preg_match( '/post\/(.*)\/(updated|trashed|published|drafted|added|pending|scheduled)/', $trigger->get_slug() )
 		return;
 	}
 
