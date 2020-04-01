@@ -5,8 +5,8 @@ Sometimes it's needed to add your own Merge Tag to already defined Trigger. In e
 To do this simply hook into the action and add your Merge Tag:
 
 ```php
-// Hook just after the Trigger is registered.
-add_action( 'notification/trigger/registered', function( $trigger ) {
+// Hook into an action when Merge Tags are attached to Trigger.
+add_action( 'notification/trigger/merge_tags', function( $trigger ) {
 
 	// Check if registered Trigger is the one you need.
 	if ( 'wordpress/post/updated' !== $trigger->get_slug() ) {
@@ -31,7 +31,7 @@ add_action( 'notification/trigger/registered', function( $trigger ) {
 You can target all the Post Type Triggers like this:
 
 ```php
-add_action( 'notification/trigger/registered', function( $trigger ) {
+add_action( 'notification/trigger/merge_tags', function( $trigger ) {
 
 	if ( ! preg_match( '/post\/(.*)\/(updated|trashed|published|drafted|added|pending|scheduled)/', $trigger->get_slug() )
 		return;
