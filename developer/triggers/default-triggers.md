@@ -79,6 +79,7 @@ This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` i
 | User password changed | `user/password_changed` |
 | User password reset request | `user/password_reset_request` |
 | User profile updated | `user/profile_updated` |
+| User registered | `user/registered` |
 | User role changed | `user/role_changed` |
 {% endtab %}
 
