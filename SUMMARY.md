@@ -3,7 +3,7 @@
 * [Notification – Custom Notifications and Alerts for WordPress](README.md)
 * [Known issues](known-issues.md)
 
-## User guide
+## 🤸‍♀️ User guide
 
 * [How Notification plugin works](user-guide/how-notification-plugin-works.md)
 * [Who can use this plugin](user-guide/who-can-use-this-plugin.md)
@@ -15,7 +15,7 @@
   * [How to setup different FROM address for different Notifications](user-guide/advanced/how-to-setup-different-from-address-for-different-notifications.md)
   * [Custom Post Type support](user-guide/advanced/custom-post-type-support.md)
 
-## Developer
+## 🔧 Developer
 
 * [General](developer/general/README.md)
   * [Plugin loading chain](developer/general/plugin-loading-chain.md)
@@ -52,7 +52,7 @@
     * [MemberPress](developer/snippets/integations/memberpress.md)
     * [Gutenberg](developer/snippets/integations/gutenberg.md)
 
-## Extensions
+## 🧩 Extensions
 
 * [Installation](extensions/installation.md)
 * [Planned extensions](extensions/planned.md)
