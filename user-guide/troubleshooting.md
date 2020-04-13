@@ -26,7 +26,13 @@ See:
 
 {% page-ref page="advanced/custom-post-type-support.md" %}
 
+## Storage templates base path: .../wp-content/plugins/notification/src/templates must exists and be a directory
 
+This error will most likely occur in tandem with: `Warning: ftp_nlist() expects parameter 1 to be resource, null given`
 
+To make sure the plugin works, please add the following to your `wp-config.php`:
 
+```php
+if (!defined('FS_METHOD')) define('FS_METHOD', 'direct');
+```
 
