@@ -8,6 +8,10 @@ description: Debug quickly why the plugin isn't working
 Make sure the Notification plugin and all the extensions are up-to-date!
 {% endhint %}
 
+## The Recipients field is empty
+
+Notification v7 uses WordPress' REST API to render the recipients field. You must ensure the `/notification` endpoint is accessible and the API is accessible.  
+
 ## Nothing is sent
 
 To debug the missing message \(Carrier execution\) please enable the Notification log in **Notification &gt; Settings &gt; Debugging**. All the executions will be caught there.
