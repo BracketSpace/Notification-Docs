@@ -3,7 +3,7 @@
 ## Adding default Merge Tags to "User registered" Trigger
 
 ```php
-add_action( 'notification/trigger/registered', function( $trigger ) {
+add_action( 'notification/trigger/merge_tags', function( $trigger ) {
 
 	if ( $trigger->get_slug() !== 'user/registered' ) {
 		return;
