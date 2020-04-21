@@ -5,7 +5,7 @@
 ```php
 add_action( 'notification/trigger/registered', function( $trigger ) {
 
-	if ( $trigger->get_slug() !== 'wordpress/user_registered' ) {
+	if ( $trigger->get_slug() !== 'user/registered' ) {
 		return;
 	}
 
