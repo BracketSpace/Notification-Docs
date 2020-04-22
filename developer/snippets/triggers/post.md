@@ -5,7 +5,7 @@
 ```php
 add_action( 'notification/trigger/registered', function( $trigger ) {
 
-	if ( $trigger->get_slug() !== 'wordpress/post/published' ) {
+	if ( $trigger->get_slug() !== 'post/post/published' ) {
 		return;
 	}
 

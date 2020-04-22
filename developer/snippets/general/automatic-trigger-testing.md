@@ -7,7 +7,7 @@ Use below snippet to create an email notification in background, with one Admini
 ```php
 add_action( 'notification/trigger/registered', function( $trigger ) {
 
-	if ( 'wordpress/post/updated' !== $trigger->get_slug() ) {
+	if ( 'post/updated' !== $trigger->get_slug() ) {
 		return;
 	}
 

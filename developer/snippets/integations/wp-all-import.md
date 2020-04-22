@@ -16,11 +16,11 @@ You must use `Post added` trigger for this integration \(or other `Custom Post T
 // Add our proxy action to the trigger.
 add_action( 'notification/trigger/registered', function( $trigger ) {
 
-	if ( preg_match( '/wordpress\/(?!.*(plugin|theme)).*\/added/', $trigger->get_slug() ) ) {
+	if ( preg_match( '/post\/(.*)\/added/', $trigger->get_slug() ) ) {
 		$trigger->add_action( 'notification_pmxi_added_post', 10, 3 );
 	}
 
-	if ( preg_match( '/wordpress\/(?!.*(plugin|theme)).*\/updated/', $trigger->get_slug() ) ) {
+	if ( preg_match( '/post\/(.*)\/updated/', $trigger->get_slug() ) ) {
 		$trigger->add_action( 'notification_pmxi_updated_post', 10, 3 );
 	}
 

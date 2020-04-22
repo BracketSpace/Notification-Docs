@@ -9,7 +9,7 @@ To do this simply hook into the action and add your Merge Tag:
 add_action( 'notification/trigger/merge_tags', function( $trigger ) {
 
 	// Check if registered Trigger is the one you need.
-	if ( 'wordpress/post/updated' !== $trigger->get_slug() ) {
+	if ( 'post/post/updated' !== $trigger->get_slug() ) {
 		return;
 	}
 
