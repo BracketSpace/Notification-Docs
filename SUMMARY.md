@@ -37,6 +37,7 @@
   * [Delaying Trigger execution with Cron](developer/triggers/delaying-trigger-execution-with-cron.md)
 * [Carriers](developer/carriers/README.md)
   * [Custom Carrier](developer/carriers/custom-carrier.md)
+  * [Adding custom fields to Carrier form](developer/carriers/adding-custom-fields-to-carrier-form.md)
   * [Suppressing the Carrier](developer/carriers/suppressing.md)
 * [Recipients](developer/recipients/README.md)
   * [Custom Recipient](developer/recipients/custom-recipient.md)
