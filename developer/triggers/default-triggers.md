@@ -45,6 +45,7 @@ This covers all the custom post types, as well. Use `post`, `page`, `product`, `
 | Post added | `post/{post_type_slug}/added` |
 | Post saved as a draft | `post/{post_type_slug}/drafted` |
 | Post sent for review | `post/{post_type_slug}/pending` |
+| Post approved | `post/{post_type_slug}/approved` |
 | Post published | `post/{post_type_slug}/published` |
 | Post trashed | `post/{post_type_slug}/trashed` |
 | Post updated | `post/{post_type_slug}/updated` |
