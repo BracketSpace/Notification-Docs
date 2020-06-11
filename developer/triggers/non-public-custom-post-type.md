@@ -5,7 +5,8 @@ By default, you can select only public post types in the Notification settings. 
 ```php
 add_filter( 'notification/settings/triggers/valid_post_types', function( $post_types ) {
 
-	$post_types[] = get_post_type_object( 'non_public_post_type_slug' );
+	// Slug is the key and Singular name is the value.
+	$post_types['non_public_post_type_slug'] = __( 'Non Public Post Type' );
 
 	return $post_types;
 
