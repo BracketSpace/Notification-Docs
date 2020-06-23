@@ -1,14 +1,14 @@
 # White label mode
 
-One of the coolest Notification features is the white labeling. To put it in this mode you’ll need to call just one function:
+One of the coolest Notification features is white labeling. To put it in this mode you’ll need to call just one function:
 
 ```php
-if ( function_exists( 'notification_whitelabel' ) ) {
+add_action( 'notification/init', function() {
 	notification_whitelabel();
-}
+} );
 ```
 
-What it does is just removes all the default triggers. The fun part starts with the parameters you can use. See below:
+What it does is just remove all the default triggers. The fun part starts with the parameters you can use. See below:
 
 ```php
 notification_whitelabel( [
@@ -25,7 +25,7 @@ notification_whitelabel( [
 ```
 
 {% hint style="info" %}
-If Notifications page is moved to a submenu of another page, the settings and extensions are added as a separate submenu.
+If the Notifications page is moved to a submenu of another page, the settings and extensions are added as a separate submenu.
 {% endhint %}
 
 ## Adjusting Notification post type labels and capabilities
