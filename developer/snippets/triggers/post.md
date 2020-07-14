@@ -18,3 +18,15 @@ add_action( 'notification/trigger/registered', function( $trigger ) {
 } );
 ```
 
+## Post updated - add other post statuses
+
+```php
+add_filter( 'notification/trigger/wordpress/post/updated/statuses', function( $statuses, $post_type ) {
+    if ( 'my-post-type' === $post_type ) {
+        $statuses[] = 'on-hold';
+    } 
+    
+    return $statuses;
+}, 10, 2 );
+```
+
