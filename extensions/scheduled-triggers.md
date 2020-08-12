@@ -12,7 +12,7 @@ description: Version 2.0.0
 
 Let's assume that you want to send a notification **7 days after post publication date**. The time window is set to 1 day. This setting means that it will match any post which publication date was between 8 and 7 days ago.
 
-![The timeline. Each gray dot stands for the scheduled check \(default: 5 minutes\)](../.gitbook/assets/scheduled-triggers-after-static.png)
+![The timeline. Each gray dot stands for the scheduled check \(default: 1 hour\)](../.gitbook/assets/scheduled-triggers-after-static.png)
 
 
 
@@ -22,7 +22,7 @@ The notification **7 days before post publication date** \(scheduled post\) work
 
 ### Behind the scenes
 
-The plugin is running on the WordPress Cron. The default schedule is 5 minutes, but you can make it run every day or week, it's configurable.
+The plugin is running on the WordPress Cron. The default schedule is 1 hour, but you can make it run every day or week, it's configurable.
 
 On each of the executions, the proper objects \(Posts or Users\) are picked from the database. If you are using the Merge Tag time value, **all not locked object are queried**.
 
