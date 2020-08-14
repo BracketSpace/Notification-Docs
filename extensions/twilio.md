@@ -4,13 +4,13 @@
 [Download this extension](https://bracketspace.com/downloads/notification-twilio/)
 {% endhint %}
 
-### Extention Installation
+## Extention Installation
 
 See how to install an extension:
 
 {% page-ref page="installation.md" %}
 
-### Twilio Account
+## Twilio Account
 
 Once you have your Twilio extension installed, you should care about getting your [Twilio account](https://www.twilio.com/console), unless you already have one and want to [skip](twilio.md#notifications-settings).
 
@@ -36,7 +36,7 @@ Here you can and should get your trial number.
 
 And now you have everything you need to get started.
 
-### Notification's Settings
+## Notification's Settings
 
 The next thing to do is to go to `Notification -> Settings -> Carrier -> Twilio` and enable Twilio SMS Carrier with the **Account SID** and **Auth token** from your Twilio Dashboard.
 
@@ -44,7 +44,7 @@ The next thing to do is to go to `Notification -> Settings -> Carrier -> Twilio`
 
 Now let's create your first SMS notification, shall we?
 
-### Create notification
+## Create notification
 
 Adding new notification is no different than in its standard version. To see basic information about the notifications see [this chapter](../user-guide/how-to-create-notifications.md#define-new-notification).
 
@@ -60,7 +60,7 @@ And now, when someone replies a comment, recipients get a message!
 
 ![](../.gitbook/assets/twilio_sms.png)
 
-### Going live
+## Going live
 
 After you have your email and phone number confirmed, the main thing you need to do to upgrade your Twilio account it to add Company Address, Billing Address, and Payment Information.
 
