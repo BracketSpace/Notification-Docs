@@ -6,7 +6,9 @@
 
 ### Extention Installation
 
-See how to install an extension in [this chapter](installation.md).
+See how to install an extension:
+
+{% page-ref page="installation.md" %}
 
 ### Twilio Account
 
