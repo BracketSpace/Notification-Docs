@@ -19,7 +19,7 @@ add_action( 'notification/trigger/merge_tags', function( $trigger ) {
 		'slug'     => 'new_merge_tag',
 		'name'     => __( 'New Merge Tag', 'textdomain' ),
 		'resolver' => function( $trigger ) {
-			return get_post_meta( $trigger->post->ID, '_my_meta_key', true );
+			return get_post_meta( $trigger->{ $trigger->get_post_type() }->ID, '_my_meta_key', true );
 		},
 	] ) );
 
