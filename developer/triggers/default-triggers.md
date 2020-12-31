@@ -89,6 +89,15 @@ This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` i
 | :--- | :--- |
 | Available updates | `wordpress/updates_available` |
 {% endtab %}
+
+{% tab title="Privacy" %}
+| Trigger name | Trigger slug |
+| :--- | :--- |
+| Personal Data erased | `privacy/data-erased` |
+| Personal Data erase request | `privacy/data-erase-request` |
+| Personal Data exported | `privacy/data-exported` |
+| Personal Data export request | `privacy/data-export-request` |
+{% endtab %}
 {% endtabs %}
 
 
