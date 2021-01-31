@@ -197,7 +197,7 @@ All supported pipelines:
 | :--- | :--- | :--- |
 | [post](./#post) | [first](./#first) | [bool](./#bool) |
 | [postmeta](./#postmeta) | [last](./#last) | [join](./#join) |
-| [term](./#term) | pluck | [json](./#json) |
+| [term](./#term) | [pluck](./#pluck) | [json](./#json) |
 | [termmeta](./#termmeta) |  |  |
 | [user](./#user) |  |  |
 | [usermeta](./#usermeta) |  |  |
