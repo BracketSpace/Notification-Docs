@@ -46,6 +46,7 @@
     * [Automatic Trigger testing](developer/snippets/general/automatic-trigger-testing.md)
     * [Allow other roles to edit Notifications](developer/snippets/general/allow-other-roles-to-edit-notifications.md)
     * [Allow sending Notification while logging is active](developer/snippets/general/allow-sending-notification-while-logging-is-active.md)
+    * [Programmatic Notification with manual Trigger](developer/snippets/general/programmatic-notification-with-manual-trigger.md)
   * [Triggers](developer/snippets/triggers/README.md)
     * [Post](developer/snippets/triggers/post.md)
     * [User](developer/snippets/triggers/user.md)
