@@ -21,7 +21,7 @@ add_filter( 'notification/trigger/process_in_background', function( $enabled, $t
 {% endtab %}
 
 {% tab title="Enable Triggers" %}
-```
+```php
 add_filter( 'notification/trigger/process_in_background', function( $enabled, $trigger ) {
 	$enabled_trigger_slugs = [
 		'user/registered',
