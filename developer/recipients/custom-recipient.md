@@ -80,11 +80,11 @@ class ExampleRecipient extends Abstracts\Recipient {
 ## Registering the Recipient
 
 {% hint style="warning" %}
-All Recipients must be registered **before** the Carriers.
+All Recipients must be registered **before** the Carriers, so you need to use the `notification/init` action instead of `notification/elements.`
 {% endhint %}
 
 ```php
-add_action( 'notification/elements', function() {
+add_action( 'notification/init', function() {
     // You need to provide the Carrier slug.
     notification_register_recipient( 'carrier-slug', new ExampleRecipient() );
 } );
