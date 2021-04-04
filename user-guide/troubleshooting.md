@@ -20,6 +20,12 @@ If the notification gets caught, you can inspect the details \(ie. if the recipi
 
 If the notification is not there, you probably found a bug. Please [report it on Github](https://github.com/BracketSpace/Notification/issues/new?assignees=&labels=bug&template=bug-report.md&title=).
 
+## Multiple Notifications are sent
+
+Most of the time this is caused by the post editor saving the content multiple times. Ie. Gutenberg saves the main content in one request, taxonomy terms in another request, ACF saves the fields in another request, and so on.
+
+The Notification plugin already has some editor integrations implemented, but if it still sends double notifications in your case, you may try to use the [Notification : Prevent Duplicates](../extensions/3rd-party-extensions.md#notification-prevent-duplicates) extension.
+
 ## Cannot see the Custom Post Type on the Triggers list while creating a Notification
 
 See:
