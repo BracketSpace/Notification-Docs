@@ -57,9 +57,9 @@ This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` i
 
 | Trigger name | Trigger slug |
 | :--- | :--- |
-| Taxonomy term created | `taxonomny/{taxonomy_slug}/created` |
-| Taxonomy term deleted | `taxonomny/{taxonomy_slug}/deleted` |
-| Taxonomy term updated | `taxonomny/{taxonomy_slug}/updated` |
+| Taxonomy term created | `taxonomy/{taxonomy_slug}/created` |
+| Taxonomy term deleted | `taxonomy/{taxonomy_slug}/deleted` |
+| Taxonomy term updated | `taxonomy/{taxonomy_slug}/updated` |
 {% endtab %}
 
 {% tab title="Theme" %}
