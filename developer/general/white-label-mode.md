@@ -1,31 +1,32 @@
 # White label mode
 
-One of the coolest Notification features is the white labeling. To put it in this mode you’ll need to call just one function:
+One of the coolest Notification features is white labeling. To put it in this mode you’ll need to call just one function:
+
+<pre class="language-php"><code class="lang-php"><strong>use BracketSpace\Notification\Core\Whitelabel;
+</strong><strong>
+</strong><strong>add_action( 'notification/init', function() {
+</strong>	Whitelabel::enable();
+} );
+</code></pre>
+
+What it does is just remove all the [default triggers](../triggers/default-triggers.md) and [the upselling](../../user-guide/advanced/disable-upselling.md). The fun part starts with the parameters you can use. See below:
 
 ```php
-if ( function_exists( 'notification_whitelabel' ) ) {
-	notification_whitelabel();
-}
-```
-
-What it does is just removes all the default triggers. The fun part starts with the parameters you can use. See below:
-
-```php
-notification_whitelabel( [
+Whitelabel::enable( [
 	// admin page hook under which you want the Notifications to be displayed.
-	'page_hook'       => 'edit.php?post_type=page',
+	'page_hook' => 'edit.php?post_type=page',
 	// if display extensions.
-	'extensions'      => false,
+	'extensions' => false,
 	// if display settings.
-	'settings'        => false,
-	// control settings access, provided user IDs will have an access.
+	'settings' => false,
+	// control settings access, provided user IDs will have access.
 	// this works only if settings are enabled.
-	'settings_access' => array( 123, 456 ),
+	'settings_access' => [123, 456],
 ] );
 ```
 
 {% hint style="info" %}
-If Notifications page is moved to a submenu of another page, the settings and extensions are added as a separate submenu.
+If the Notifications page is moved to a submenu of another page, the settings and extensions are added as a separate submenu.
 {% endhint %}
 
 ## Adjusting Notification post type labels and capabilities
@@ -75,4 +76,3 @@ add_filter( 'notification/post_type/capabilities', function( $capabilities ) {
 
 } );
 ```
-

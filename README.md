@@ -12,17 +12,26 @@ description: The official Notification plugin documentation
 
 ## Getting Started
 
-{% page-ref page="user-guide/how-notification-plugin-works.md" %}
+{% content-ref url="user-guide/how-notification-plugin-works.md" %}
+[how-notification-plugin-works.md](user-guide/how-notification-plugin-works.md)
+{% endcontent-ref %}
 
 ## Developer docs
 
-{% page-ref page="developer/general/extension-possibilities.md" %}
+{% content-ref url="developer/general/extension-possibilities.md" %}
+[extension-possibilities.md](developer/general/extension-possibilities.md)
+{% endcontent-ref %}
 
-{% page-ref page="developer/general/bundling.md" %}
+{% content-ref url="developer/general/bundling.md" %}
+[bundling.md](developer/general/bundling.md)
+{% endcontent-ref %}
 
-{% page-ref page="developer/general/white-label-mode.md" %}
+{% content-ref url="developer/general/white-label-mode.md" %}
+[white-label-mode.md](developer/general/white-label-mode.md)
+{% endcontent-ref %}
 
 ## Extensions
 
-{% page-ref page="extensions/installation.md" %}
-
+{% content-ref url="extensions/installation.md" %}
+[installation.md](extensions/installation.md)
+{% endcontent-ref %}

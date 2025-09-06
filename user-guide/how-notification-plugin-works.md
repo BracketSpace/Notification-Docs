@@ -17,7 +17,7 @@ The Notification plugin is created with a few components which works together. S
 
 ### Trigger
 
-The Trigger is a WordPress action\(s\) which are observed by the plugin. Examples:
+The Trigger is a WordPress action(s) which are observed by the plugin. Examples:
 
 * User registration
 * Post publication
@@ -61,4 +61,3 @@ Each Trigger has a set of it's Merge Tags. Having the `{plugin_name}` Tag in con
 You can use these Marge Tags in any Carrier. Ie. use the `{user_email}` as the Email recipient but also send it in a `user.email` field in the Webhook.
 
 The rule of thumb is - if you cannot see the Merge Tag in the sidebar, you cannot use it.
-

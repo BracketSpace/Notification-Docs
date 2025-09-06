@@ -2,7 +2,9 @@
 
 You are very welcome to create your own Notification extension. You can publish it on WordPress.org repository. See below the detailed guidelines to how to make it the best extension ever written.
 
-{% page-ref page="extension-possibilities.md" %}
+{% content-ref url="extension-possibilities.md" %}
+[extension-possibilities.md](extension-possibilities.md)
+{% endcontent-ref %}
 
 ## Quickstart
 
@@ -25,4 +27,3 @@ Take a look at existing extensions, like [Notification : Signature](https://word
 ## Releasing the plugin
 
 If your plugin is free and released on WordPress.org you can [let us know](https://bracketspace.com/contact/) about your awesome work. After review we will place your plugin in the Notification’s Extension Directory!
-
